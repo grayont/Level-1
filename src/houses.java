@@ -15,7 +15,7 @@ public class houses {
 		bot.setY(920);
 		
 		bot.penDown();
-		bot.setSpeed(100);
+		bot.setSpeed(10);
 		for (int i = 0; i < 10; i++){
 		
 		drawFlatHouse(new Random().nextInt(600) + 100, Color.gray);
